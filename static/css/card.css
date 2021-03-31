@@ -1,0 +1,123 @@
+
+#title {
+  font-size: 1.35rem;
+  font-weight: 300;
+}
+
+.icon {
+  font-size: .9rem;
+  display: inline-flex;
+  background: #D8D8D8;
+  border-radius: 3px;
+  margin-right: 5px;
+  margin-bottom: 15px;
+  span {
+    border-radius: 5px;
+    padding: 3px 5px;
+  };
+}
+
+.react {
+  background: #BAD5F5;
+  span::after {
+    content: "React.js";
+  }
+}
+
+.card {
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 20px;
+}
+
+.project {
+    max-height: 355px;
+    min-height: 250px;
+    max-width: 300px;
+    min-width: 210px;
+}
+
+.card-reveal .card-title {
+    overflow: auto;
+    white-space: normal;
+    text-overflow: unset;
+}
+
+.md-chip-link {
+    padding-left:8px;
+    padding-right:8px;
+  }
+
+.card-image {
+    padding-top: 24px;
+    max-width:400px;
+    max-height:400px;
+    display: flex;
+    justify-content: center;
+}
+
+.card .card-image img.card-image {
+    padding-top: 0px;
+    max-height: 180px;
+    min-height: 180px;
+    width: auto;
+}
+
+.status {
+  color: #969696;
+}
+
+.card-title {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.container-outer {
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+.container-inner {
+  white-space: nowrap;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  /*kinda hacky solution to remove that ugly scrollbar*/
+  margin-bottom: -25px; /* maximum width of scrollbar */
+  padding-bottom: 25px; /* maximum width of scrollbar */
+}
+
+.vcenter-close {
+    padding-top: 5px;
+}
+
+.no-margin-top{
+    margin-top: 0px;
+}
+
+.no-margin-bottom{
+    margin-bottom: 0px !important;
+}
+
+.col-reveal-title{
+    width: calc(100% - 30px);
+}
+
+.col-reveal-icon{
+    width: 30px;
+}
+
+.bottom-aligned{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 24px;
+}
+
+.card .card-reveal{
+    padding: 24px;
+}
+
+.card .card-content{
+    padding: 24px;
+}
+

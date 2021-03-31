@@ -1,0 +1,1779 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/static/css/base.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto:900" rel="stylesheet">
+
+
+    <title>Joshua de Jong</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/static/images/favicon/favicon.ico">
+    <link rel="shortcut icon" href="/static/images/favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/static/images/favicon/site.webmanifest">
+    <link rel="mask-icon" color="#da532c" href="/static/images/favicon/safari-pinned-tab.svg">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!-- flickity -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.1/flickity.pkgd.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.1/flickity.css">
+
+    <!-- Custom css and js -->
+    <script type="text/javascript" src="/static/js/modal.js"></script>
+    <link type="text/css" rel="stylesheet" href="/static/css/modal.css">
+    <link type="text/css" rel="stylesheet" href="/static/css/card.css">
+    <link type="text/css" rel="stylesheet" href="/static/css/chip.css">
+    <link type="text/css" rel="stylesheet" href="/static/css/base.css">
+
+</head>
+<body>
+    <dev class="navbar-ul">
+            <ul id="navbar-list" class="list-inline">
+                <li><a class="navbar-ref" href="/home.html">Home</a></li>
+                <li><a class="navbar-ref" href="/projects.html">Projects</a></li>
+                <li><a class="navbar-ref" href="/timeline.html">Timeline</a></li>
+                <li><a class="navbar-ref" href="/about.html">About</a></li>
+            </ul>
+    </dev>
+
+    
+ <div class="container">
+
+     <!-- Filter -->
+     
+
+    <!-- Build Cards -->
+    <div class="row">
+        
+            <head>
+</head>
+
+<body>
+    <!-- Modal -->
+    <div id="modal-Seattle Fire Dispatch" class="modal modal-window">
+        <div class="flex-window">
+            <div class="modal-padding modal-action modal-close"></div>
+            <div class="modal-background">
+                    <!-- Close Button -->
+                    <a class="modal-action modal-close modal-quit-button btn-floating btn-small waves-effect waves-light">
+                        <i class="material-icons">
+                            close
+                        </i>
+                    </a>
+
+                    <!-- Modal Header -->
+                    <div class="modal-header row no-margin-bottom">
+                        <!-- Project Icon -->
+                        <div class="col col-icon">
+                            <div class="icon-container">
+                                <img class="icon-image" src=/static/images/projects/seattle-fire-dispatch/icon.png>
+                            </div>
+                        </div>
+
+                        <!-- Project Title & Tags -->
+                        <div class="col col-title">
+                            <div class="center-if-small title-margin">
+                                <span class="modal-title">
+                                    Seattle Fire Dispatch
+                                </span>
+                                
+                                    <div class="md-chips container-inner" style="overflow-x: hidden;">
+                                        
+                                        <div class="md-chip md-chip-clickable">
+                                            <a class="md-chip-link" href="/projects.html?tags=Fullstack">
+                                                Fullstack
+                                            </a>
+                                        </div>
+                                        
+                                        <div class="md-chip md-chip-clickable">
+                                            <a class="md-chip-link" href="/projects.html?tags=WIP">
+                                                WIP
+                                            </a>
+                                        </div>
+                                        
+                                    </div>
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Modal Content -->
+                    <div class="modal-content">
+                        <!-- Custom Layout -->
+                        
+                            
+
+
+
+<p>
+    <b>Note:</b> This project is a work in progress and is not complete.
+    In the close future I hope to host the application on the web for others to use!
+</p>
+
+
+<h5>Goal</h5>
+<p>
+    I have always enjoyed seeing what the Seattle Fire Department is doing through out the day.
+    However, while I can view the department's activity on their <a href="http://www2.seattle.gov/fire/realtime911/getRecsForDatePub.asp?action=Today&incDate=&rad1=des">website</a> I always wondered the following:
+    <ul class="ul-bullets">
+        <li>Where is that incident in relation to where I am?</li>
+        <li>What does do the emergency code mean?</li>
+        <li>How and where can I learn more about a large event?</li>
+        <li>What do the vehicle codes mean and what do the vehicles look like?</li>
+        <li>How common are these types of incidents?</li>
+        <li>How long does it take for the department to arrive to an incident and how long are they there?</li>
+    </ul>
+    With this project I hope to create an easy way for people to learn and share info about incidents in the Seattle area.
+</p>
+<p>
+    Another large driving force for this project is building my skills as a fullstack developer and learning more about starting a business.
+</p>
+
+
+
+<h5>Images</h5>
+<div class="row">
+    <div class="col s6 m4 l4">
+            <img class="article-img" src="/static/images/projects/seattle-fire-dispatch/image_1.png">
+    </div>
+    <div class="col s6 m4 l4">
+            <img class="article-img" src="/static/images/projects/seattle-fire-dispatch/image_2.png">
+    </div>
+    <div class="col s6 m4 l4">
+            <img class="article-img" src="/static/images/projects/seattle-fire-dispatch/image_3.png">
+    </div>
+</div>
+
+<h5>Stack</h5>
+<ul class="ul-bullets">
+    <li>
+        <b>Frontend:</b> Flask, Javascript, Html, CSS, Sass, Mapbox
+    </li>
+    <li>
+        <b>Database:</b> Postgres, Redis
+    </li>
+    <li>
+        <b>Backend:</b> Python
+    </li>
+</ul>
+                        <!-- Auto Content -->
+                        
+
+                        <!-- Project Photos -->
+
+                        <!-- Skills & Tech -->
+
+                    </div>
+
+                    <!-- Modal Footer -->
+                    <div class="modal-footer">
+                        <hr class="hr-one">
+                        <span>
+                            
+                                <a class="status">Work in Progress</a>
+                            
+                        </span>
+                    </div>
+                </div>
+            <div class="modal-padding modal-action modal-close"></div>
+            <div class="modal-padding-extra modal-action modal-close"></div>
+        </div>
+    </div>
+
+    <!-- Card -->
+    <div class="col s12 m6 l4">
+        <div class="card hoverable project">
+            <!-- Project Icon -->
+            <div class="card-image waves-effect waves-block waves-light activator">
+                
+                    <img class="card-image activator" src=/static/images/projects/seattle-fire-dispatch/icon.png>
+                
+            </div>
+
+            <!-- Card Content -->
+            <div class="card-content activator">
+                <!-- Project Name -->
+                <span id="title" class="no-margin-bottom card-title activator grey-text text-darken-4" title="Seattle Fire Dispatch">
+                    Seattle Fire Dispatch
+                </span>
+                <!-- Tags -->
+                
+                    <div class="container-outer">
+                        <div class="md-chips container-inner">
+                            
+                            <div class="md-chip md-chip-clickable">
+                                <a class="md-chip-link" href="/projects.html?tags=Fullstack">
+                                    Fullstack
+                                </a>
+                            </div>
+                            
+                            <div class="md-chip md-chip-clickable">
+                                <a class="md-chip-link" href="/projects.html?tags=WIP">
+                                    WIP
+                                </a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                
+                <div class="row no-margin-bottom">
+                    <!-- Read More -->
+                    <div class="col col-reveal-title">
+                        
+                            <span><a class="modal-trigger" href="#modal-Seattle Fire Dispatch">Read More</a></span>
+                        
+                        
+                        
+                    </div>
+
+                    <!-- show more -->
+                    <div class="col col-reveal-icon">
+                        
+                            <span>
+                                <i class="material-icons right activator">more_vert</i>
+                            </span>
+                        
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Card Reveal -->
+            
+                <div class="card-reveal">
+                    <div class="row no-margin-top no-margin-bottom">
+                        <div class="col col-reveal-title">
+                            <span class="card-title grey-text text-darken-4">Seattle Fire Dispatch</span>
+                        </div>
+                        <div class="col col-reveal-icon">
+                            <span class="card-title activator" style="display: contents;"><i class="material-icons right vcenter-close">close</i></span>
+                        </div>
+                    </div>
+                    
+                        <div><span class="status">Work in Progress</span></div>
+                    
+                    <p>A dashboard designed to show current and historical data about the Seattle Fire Dispatch.</p>
+
+                    <div class="bottom-aligned">
+                        
+                            <span><a class="modal-trigger" href="#modal-Seattle Fire Dispatch">Read More</a></span>
+                        
+                        
+                        
+                    </div>
+                </div>
+            
+        </div>
+    </div>
+</body>
+        
+            <head>
+</head>
+
+<body>
+    <!-- Modal -->
+    <div id="modal-Portfolio" class="modal modal-window">
+        <div class="flex-window">
+            <div class="modal-padding modal-action modal-close"></div>
+            <div class="modal-background">
+                    <!-- Close Button -->
+                    <a class="modal-action modal-close modal-quit-button btn-floating btn-small waves-effect waves-light">
+                        <i class="material-icons">
+                            close
+                        </i>
+                    </a>
+
+                    <!-- Modal Header -->
+                    <div class="modal-header row no-margin-bottom">
+                        <!-- Project Icon -->
+                        <div class="col col-icon">
+                            <div class="icon-container">
+                                <img class="icon-image" src=/static/images/projects/portfolio/icon.png>
+                            </div>
+                        </div>
+
+                        <!-- Project Title & Tags -->
+                        <div class="col col-title">
+                            <div class="center-if-small title-margin">
+                                <span class="modal-title">
+                                    Portfolio
+                                </span>
+                                
+                                    <div class="md-chips container-inner" style="overflow-x: hidden;">
+                                        
+                                        <div class="md-chip md-chip-clickable">
+                                            <a class="md-chip-link" href="/projects.html?tags=Python">
+                                                Python
+                                            </a>
+                                        </div>
+                                        
+                                    </div>
+                                
+                                
+                                    <div style="margin-top: 8px;">
+                                        <span class="media-box">
+                                            <a target="_blank" href=https://github.com/JoshuadeJong/portfolio>
+                                                <img class="media-logo" src="static/images/github.svg">
+                                            </a>
+                                            Github
+                                        </span>
+                                    </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Modal Content -->
+                    <div class="modal-content">
+                        <!-- Custom Layout -->
+                        
+                            
+<p>
+    If you are reading this then you most likely are viewing the live project!
+    I built this portfolio as a way to host my project, share a bit about me and learn some frontend development.
+</p>
+
+<p>
+    Here are the key features of this project!
+</p>
+
+<ul class="ul-bullets">
+    <li>A fully reactive layout friendly for desktop, Iphone, and Android.</li>
+    <li>A modern sleek design to show off you and your projects.</li>
+    <li>An easy way to maintain and update the portfolio without knowing HTML, CSS, or JS. You only need to know Json, and Python!</li>
+    <li>Dynamic page layouts to match your content - no need to fight the layout.</li>
+    <li>Awesome animations to prevent your skills from just being plain text. </li>
+</ul>
+
+<p>For more details on this project visit the github repo.</p>
+                        <!-- Auto Content -->
+                        
+
+                        <!-- Project Photos -->
+
+                        <!-- Skills & Tech -->
+
+                    </div>
+
+                    <!-- Modal Footer -->
+                    <div class="modal-footer">
+                        <hr class="hr-one">
+                        <span>
+                            
+                                <a class="status">Released: Sep 2020</a>
+                            
+                        </span>
+                    </div>
+                </div>
+            <div class="modal-padding modal-action modal-close"></div>
+            <div class="modal-padding-extra modal-action modal-close"></div>
+        </div>
+    </div>
+
+    <!-- Card -->
+    <div class="col s12 m6 l4">
+        <div class="card hoverable project">
+            <!-- Project Icon -->
+            <div class="card-image waves-effect waves-block waves-light activator">
+                
+                    <img class="card-image activator" src=/static/images/projects/portfolio/icon.png>
+                
+            </div>
+
+            <!-- Card Content -->
+            <div class="card-content activator">
+                <!-- Project Name -->
+                <span id="title" class="no-margin-bottom card-title activator grey-text text-darken-4" title="Portfolio">
+                    Portfolio
+                </span>
+                <!-- Tags -->
+                
+                    <div class="container-outer">
+                        <div class="md-chips container-inner">
+                            
+                            <div class="md-chip md-chip-clickable">
+                                <a class="md-chip-link" href="/projects.html?tags=Python">
+                                    Python
+                                </a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                
+                <div class="row no-margin-bottom">
+                    <!-- Read More -->
+                    <div class="col col-reveal-title">
+                        
+                            <span><a class="modal-trigger" href="#modal-Portfolio">Read More</a></span>
+                        
+                        
+                            <span> | </span>
+                        
+                        
+                            <span><a class="github" href=https://github.com/JoshuadeJong/portfolio>Github</a></span>
+                        
+                    </div>
+
+                    <!-- show more -->
+                    <div class="col col-reveal-icon">
+                        
+                            <span>
+                                <i class="material-icons right activator">more_vert</i>
+                            </span>
+                        
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Card Reveal -->
+            
+                <div class="card-reveal">
+                    <div class="row no-margin-top no-margin-bottom">
+                        <div class="col col-reveal-title">
+                            <span class="card-title grey-text text-darken-4">Portfolio</span>
+                        </div>
+                        <div class="col col-reveal-icon">
+                            <span class="card-title activator" style="display: contents;"><i class="material-icons right vcenter-close">close</i></span>
+                        </div>
+                    </div>
+                    
+                        <div><span class="status">Sep 2020</span></div>
+                    
+                    <p>My personal portfolio and personal website! If you are reading this you are on my website!</p>
+
+                    <div class="bottom-aligned">
+                        
+                            <span><a class="modal-trigger" href="#modal-Portfolio">Read More</a></span>
+                        
+                        
+                            <span> | </span>
+                        
+                        
+                            <span><a class="github" href=https://github.com/JoshuadeJong/portfolio>Github</a></span>
+                        
+                    </div>
+                </div>
+            
+        </div>
+    </div>
+</body>
+        
+            <head>
+</head>
+
+<body>
+    <!-- Modal -->
+    <div id="modal-Notakto" class="modal modal-window">
+        <div class="flex-window">
+            <div class="modal-padding modal-action modal-close"></div>
+            <div class="modal-background">
+                    <!-- Close Button -->
+                    <a class="modal-action modal-close modal-quit-button btn-floating btn-small waves-effect waves-light">
+                        <i class="material-icons">
+                            close
+                        </i>
+                    </a>
+
+                    <!-- Modal Header -->
+                    <div class="modal-header row no-margin-bottom">
+                        <!-- Project Icon -->
+                        <div class="col col-icon">
+                            <div class="icon-container">
+                                <img class="icon-image" src=/static/images/projects/notakto/icon.png>
+                            </div>
+                        </div>
+
+                        <!-- Project Title & Tags -->
+                        <div class="col col-title">
+                            <div class="center-if-small title-margin">
+                                <span class="modal-title">
+                                    Notakto
+                                </span>
+                                
+                                    <div class="md-chips container-inner" style="overflow-x: hidden;">
+                                        
+                                        <div class="md-chip md-chip-clickable">
+                                            <a class="md-chip-link" href="/projects.html?tags=Java">
+                                                Java
+                                            </a>
+                                        </div>
+                                        
+                                    </div>
+                                
+                                
+                                    <div style="margin-top: 8px;">
+                                        <span class="media-box">
+                                            <a target="_blank" href=https://github.com/JoshuadeJong/Notakto>
+                                                <img class="media-logo" src="static/images/github.svg">
+                                            </a>
+                                            Github
+                                        </span>
+                                    </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Modal Content -->
+                    <div class="modal-content">
+                        <!-- Custom Layout -->
+                        
+                            <p>
+    Notakto is a variant of tic-tac-toe which can be played across one or several boards.
+    Both players use the same piece, an "X", with the goal of forcing the opponent to make a three-in-a-row of Xs.
+    The game is traditional played on a 3x3 board, however any NxM board is possible where N,M >= 3.
+    The game has a distinct advantage over tic-tac-toe as there will always be a winner, however the winner is often determined by who went first and the size of the board.
+</p>
+
+<div class="article-img-container">
+    <img class="article-img" src="/static/images/projects/notakto/Title.png">
+</div>
+
+<p>
+    The game includes different choices of board size, a player verse player mode, and three different levels of AI to play against.
+    The AI play the game as following:
+</p>
+<ul class="ul-bullets">
+    <li>
+        <b>Easy:</b> Make a random move into an unoccupied square.
+    </li>
+    <li>
+        <b>Medium:</b> Make a random move into an unoccupied square which will not result in an immediate loss.
+    </li>
+    <li>
+        <b>Hard:</b> Make an optimal move into an unoccupied square which will not result in an immediate loss and maximizes the chance of winning next turn.
+        Look ahead by one turn.
+    </li>
+</ul>
+
+<div class="article-img-container">
+    <img class="article-img" src="/static/images/projects/notakto/Last Turn.png">
+</div>
+
+                        <!-- Auto Content -->
+                        
+
+                        <!-- Project Photos -->
+
+                        <!-- Skills & Tech -->
+
+                    </div>
+
+                    <!-- Modal Footer -->
+                    <div class="modal-footer">
+                        <hr class="hr-one">
+                        <span>
+                            
+                                <a class="status">Released: Aug 2019</a>
+                            
+                        </span>
+                    </div>
+                </div>
+            <div class="modal-padding modal-action modal-close"></div>
+            <div class="modal-padding-extra modal-action modal-close"></div>
+        </div>
+    </div>
+
+    <!-- Card -->
+    <div class="col s12 m6 l4">
+        <div class="card hoverable project">
+            <!-- Project Icon -->
+            <div class="card-image waves-effect waves-block waves-light activator">
+                
+                    <img class="card-image activator" src=/static/images/projects/notakto/icon.png>
+                
+            </div>
+
+            <!-- Card Content -->
+            <div class="card-content activator">
+                <!-- Project Name -->
+                <span id="title" class="no-margin-bottom card-title activator grey-text text-darken-4" title="Notakto">
+                    Notakto
+                </span>
+                <!-- Tags -->
+                
+                    <div class="container-outer">
+                        <div class="md-chips container-inner">
+                            
+                            <div class="md-chip md-chip-clickable">
+                                <a class="md-chip-link" href="/projects.html?tags=Java">
+                                    Java
+                                </a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                
+                <div class="row no-margin-bottom">
+                    <!-- Read More -->
+                    <div class="col col-reveal-title">
+                        
+                            <span><a class="modal-trigger" href="#modal-Notakto">Read More</a></span>
+                        
+                        
+                            <span> | </span>
+                        
+                        
+                            <span><a class="github" href=https://github.com/JoshuadeJong/Notakto>Github</a></span>
+                        
+                    </div>
+
+                    <!-- show more -->
+                    <div class="col col-reveal-icon">
+                        
+                            <span>
+                                <i class="material-icons right activator">more_vert</i>
+                            </span>
+                        
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Card Reveal -->
+            
+                <div class="card-reveal">
+                    <div class="row no-margin-top no-margin-bottom">
+                        <div class="col col-reveal-title">
+                            <span class="card-title grey-text text-darken-4">Notakto</span>
+                        </div>
+                        <div class="col col-reveal-icon">
+                            <span class="card-title activator" style="display: contents;"><i class="material-icons right vcenter-close">close</i></span>
+                        </div>
+                    </div>
+                    
+                        <div><span class="status">Aug 2019</span></div>
+                    
+                    <p>A terminal game of Notakto, a variant of tick-tac-toe, with 3 levels of AIs to play against.</p>
+
+                    <div class="bottom-aligned">
+                        
+                            <span><a class="modal-trigger" href="#modal-Notakto">Read More</a></span>
+                        
+                        
+                            <span> | </span>
+                        
+                        
+                            <span><a class="github" href=https://github.com/JoshuadeJong/Notakto>Github</a></span>
+                        
+                    </div>
+                </div>
+            
+        </div>
+    </div>
+</body>
+        
+            <head>
+</head>
+
+<body>
+    <!-- Modal -->
+    <div id="modal-Blackjack" class="modal modal-window">
+        <div class="flex-window">
+            <div class="modal-padding modal-action modal-close"></div>
+            <div class="modal-background">
+                    <!-- Close Button -->
+                    <a class="modal-action modal-close modal-quit-button btn-floating btn-small waves-effect waves-light">
+                        <i class="material-icons">
+                            close
+                        </i>
+                    </a>
+
+                    <!-- Modal Header -->
+                    <div class="modal-header row no-margin-bottom">
+                        <!-- Project Icon -->
+                        <div class="col col-icon">
+                            <div class="icon-container">
+                                <img class="icon-image" src=/static/images/projects/blackjack/icon.png>
+                            </div>
+                        </div>
+
+                        <!-- Project Title & Tags -->
+                        <div class="col col-title">
+                            <div class="center-if-small title-margin">
+                                <span class="modal-title">
+                                    Blackjack
+                                </span>
+                                
+                                    <div class="md-chips container-inner" style="overflow-x: hidden;">
+                                        
+                                        <div class="md-chip md-chip-clickable">
+                                            <a class="md-chip-link" href="/projects.html?tags=Java">
+                                                Java
+                                            </a>
+                                        </div>
+                                        
+                                    </div>
+                                
+                                
+                                    <div style="margin-top: 8px;">
+                                        <span class="media-box">
+                                            <a target="_blank" href=https://github.com/JoshuadeJong/Blackjack>
+                                                <img class="media-logo" src="static/images/github.svg">
+                                            </a>
+                                            Github
+                                        </span>
+                                    </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Modal Content -->
+                    <div class="modal-content">
+                        <!-- Custom Layout -->
+                        
+                            <p>
+    As I have always been fascinated with blackjack and always wanted to create a terminal game I thought I would kill two birds with one stone.
+    The game includes a betting system, an automated dealer, assci art, and the standard set of blackjack rules.
+</p>
+
+<div class="article-img-container">
+    <img class="article-img" src="/static/images/projects/blackjack/Bet.png">
+</div>
+
+
+                        <!-- Auto Content -->
+                        
+
+                        <!-- Project Photos -->
+
+                        <!-- Skills & Tech -->
+
+                    </div>
+
+                    <!-- Modal Footer -->
+                    <div class="modal-footer">
+                        <hr class="hr-one">
+                        <span>
+                            
+                                <a class="status">Released: May 2019</a>
+                            
+                        </span>
+                    </div>
+                </div>
+            <div class="modal-padding modal-action modal-close"></div>
+            <div class="modal-padding-extra modal-action modal-close"></div>
+        </div>
+    </div>
+
+    <!-- Card -->
+    <div class="col s12 m6 l4">
+        <div class="card hoverable project">
+            <!-- Project Icon -->
+            <div class="card-image waves-effect waves-block waves-light activator">
+                
+                    <img class="card-image activator" src=/static/images/projects/blackjack/icon.png>
+                
+            </div>
+
+            <!-- Card Content -->
+            <div class="card-content activator">
+                <!-- Project Name -->
+                <span id="title" class="no-margin-bottom card-title activator grey-text text-darken-4" title="Blackjack">
+                    Blackjack
+                </span>
+                <!-- Tags -->
+                
+                    <div class="container-outer">
+                        <div class="md-chips container-inner">
+                            
+                            <div class="md-chip md-chip-clickable">
+                                <a class="md-chip-link" href="/projects.html?tags=Java">
+                                    Java
+                                </a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                
+                <div class="row no-margin-bottom">
+                    <!-- Read More -->
+                    <div class="col col-reveal-title">
+                        
+                            <span><a class="modal-trigger" href="#modal-Blackjack">Read More</a></span>
+                        
+                        
+                            <span> | </span>
+                        
+                        
+                            <span><a class="github" href=https://github.com/JoshuadeJong/Blackjack>Github</a></span>
+                        
+                    </div>
+
+                    <!-- show more -->
+                    <div class="col col-reveal-icon">
+                        
+                            <span>
+                                <i class="material-icons right activator">more_vert</i>
+                            </span>
+                        
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Card Reveal -->
+            
+                <div class="card-reveal">
+                    <div class="row no-margin-top no-margin-bottom">
+                        <div class="col col-reveal-title">
+                            <span class="card-title grey-text text-darken-4">Blackjack</span>
+                        </div>
+                        <div class="col col-reveal-icon">
+                            <span class="card-title activator" style="display: contents;"><i class="material-icons right vcenter-close">close</i></span>
+                        </div>
+                    </div>
+                    
+                        <div><span class="status">May 2019</span></div>
+                    
+                    <p>A terminal game of Blackjack writen in Java with an AI dealer and ASCII art.</p>
+
+                    <div class="bottom-aligned">
+                        
+                            <span><a class="modal-trigger" href="#modal-Blackjack">Read More</a></span>
+                        
+                        
+                            <span> | </span>
+                        
+                        
+                            <span><a class="github" href=https://github.com/JoshuadeJong/Blackjack>Github</a></span>
+                        
+                    </div>
+                </div>
+            
+        </div>
+    </div>
+</body>
+        
+            <head>
+</head>
+
+<body>
+    <!-- Modal -->
+    <div id="modal-Vending Machine" class="modal modal-window">
+        <div class="flex-window">
+            <div class="modal-padding modal-action modal-close"></div>
+            <div class="modal-background">
+                    <!-- Close Button -->
+                    <a class="modal-action modal-close modal-quit-button btn-floating btn-small waves-effect waves-light">
+                        <i class="material-icons">
+                            close
+                        </i>
+                    </a>
+
+                    <!-- Modal Header -->
+                    <div class="modal-header row no-margin-bottom">
+                        <!-- Project Icon -->
+                        <div class="col col-icon">
+                            <div class="icon-container">
+                                <img class="icon-image" src=/static/images/projects/vending-machine/icon.png>
+                            </div>
+                        </div>
+
+                        <!-- Project Title & Tags -->
+                        <div class="col col-title">
+                            <div class="center-if-small title-margin">
+                                <span class="modal-title">
+                                    Vending Machine
+                                </span>
+                                
+                                    <div class="md-chips container-inner" style="overflow-x: hidden;">
+                                        
+                                        <div class="md-chip md-chip-clickable">
+                                            <a class="md-chip-link" href="/projects.html?tags=C%2FC%2B%2B">
+                                                C/C++
+                                            </a>
+                                        </div>
+                                        
+                                    </div>
+                                
+                                
+                                    <div style="margin-top: 8px;">
+                                        <span class="media-box">
+                                            <a target="_blank" href=https://github.com/JoshuadeJong/Vending-Machine>
+                                                <img class="media-logo" src="static/images/github.svg">
+                                            </a>
+                                            Github
+                                        </span>
+                                    </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Modal Content -->
+                    <div class="modal-content">
+                        <!-- Custom Layout -->
+                        
+                            <p>
+    During an interview I was asked a whiteboard question to design a vending machine in C.
+    After the interview I took the time to implement my solution and identify design issues.
+</p>
+<div class="article-img-container">
+    <img class="article-img" src="/static/images/projects/vending-machine/Purchase.png">
+</div>
+<p>
+    The program generates a random inventory from a list of possible snacks, sets a price, and a random quantity.
+    The inventory is then displayed to the user in the terminal.
+    The user is then able to select a item from the vending machine and choices how much they want to pay.
+    If the user pays enough money for the snack, the machine dispenses the snack and change.
+</p>
+                        <!-- Auto Content -->
+                        
+
+                        <!-- Project Photos -->
+
+                        <!-- Skills & Tech -->
+
+                    </div>
+
+                    <!-- Modal Footer -->
+                    <div class="modal-footer">
+                        <hr class="hr-one">
+                        <span>
+                            
+                                <a class="status">Released: Mar 2019</a>
+                            
+                        </span>
+                    </div>
+                </div>
+            <div class="modal-padding modal-action modal-close"></div>
+            <div class="modal-padding-extra modal-action modal-close"></div>
+        </div>
+    </div>
+
+    <!-- Card -->
+    <div class="col s12 m6 l4">
+        <div class="card hoverable project">
+            <!-- Project Icon -->
+            <div class="card-image waves-effect waves-block waves-light activator">
+                
+                    <img class="card-image activator" src=/static/images/projects/vending-machine/icon.png>
+                
+            </div>
+
+            <!-- Card Content -->
+            <div class="card-content activator">
+                <!-- Project Name -->
+                <span id="title" class="no-margin-bottom card-title activator grey-text text-darken-4" title="Vending Machine">
+                    Vending Machine
+                </span>
+                <!-- Tags -->
+                
+                    <div class="container-outer">
+                        <div class="md-chips container-inner">
+                            
+                            <div class="md-chip md-chip-clickable">
+                                <a class="md-chip-link" href="/projects.html?tags=C%2FC%2B%2B">
+                                    C/C++
+                                </a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                
+                <div class="row no-margin-bottom">
+                    <!-- Read More -->
+                    <div class="col col-reveal-title">
+                        
+                            <span><a class="modal-trigger" href="#modal-Vending Machine">Read More</a></span>
+                        
+                        
+                            <span> | </span>
+                        
+                        
+                            <span><a class="github" href=https://github.com/JoshuadeJong/Vending-Machine>Github</a></span>
+                        
+                    </div>
+
+                    <!-- show more -->
+                    <div class="col col-reveal-icon">
+                        
+                            <span>
+                                <i class="material-icons right activator">more_vert</i>
+                            </span>
+                        
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Card Reveal -->
+            
+                <div class="card-reveal">
+                    <div class="row no-margin-top no-margin-bottom">
+                        <div class="col col-reveal-title">
+                            <span class="card-title grey-text text-darken-4">Vending Machine</span>
+                        </div>
+                        <div class="col col-reveal-icon">
+                            <span class="card-title activator" style="display: contents;"><i class="material-icons right vcenter-close">close</i></span>
+                        </div>
+                    </div>
+                    
+                        <div><span class="status">Mar 2019</span></div>
+                    
+                    <p>A terminal based vending machine written in C with virtual snacks and prices.</p>
+
+                    <div class="bottom-aligned">
+                        
+                            <span><a class="modal-trigger" href="#modal-Vending Machine">Read More</a></span>
+                        
+                        
+                            <span> | </span>
+                        
+                        
+                            <span><a class="github" href=https://github.com/JoshuadeJong/Vending-Machine>Github</a></span>
+                        
+                    </div>
+                </div>
+            
+        </div>
+    </div>
+</body>
+        
+            <head>
+</head>
+
+<body>
+    <!-- Modal -->
+    <div id="modal-Voronoi Diagram Art" class="modal modal-window">
+        <div class="flex-window">
+            <div class="modal-padding modal-action modal-close"></div>
+            <div class="modal-background">
+                    <!-- Close Button -->
+                    <a class="modal-action modal-close modal-quit-button btn-floating btn-small waves-effect waves-light">
+                        <i class="material-icons">
+                            close
+                        </i>
+                    </a>
+
+                    <!-- Modal Header -->
+                    <div class="modal-header row no-margin-bottom">
+                        <!-- Project Icon -->
+                        <div class="col col-icon">
+                            <div class="icon-container">
+                                <img class="icon-image" src=/static/images/projects/voronoi/icon.gif>
+                            </div>
+                        </div>
+
+                        <!-- Project Title & Tags -->
+                        <div class="col col-title">
+                            <div class="center-if-small title-margin">
+                                <span class="modal-title">
+                                    Voronoi Diagram Art
+                                </span>
+                                
+                                    <div class="md-chips container-inner" style="overflow-x: hidden;">
+                                        
+                                        <div class="md-chip md-chip-clickable">
+                                            <a class="md-chip-link" href="/projects.html?tags=Math">
+                                                Math
+                                            </a>
+                                        </div>
+                                        
+                                        <div class="md-chip md-chip-clickable">
+                                            <a class="md-chip-link" href="/projects.html?tags=Art">
+                                                Art
+                                            </a>
+                                        </div>
+                                        
+                                    </div>
+                                
+                                
+                                    <div style="margin-top: 8px;">
+                                        <span class="media-box">
+                                            <a target="_blank" href=https://github.com/JoshuadeJong/Voronoi-Art>
+                                                <img class="media-logo" src="static/images/github.svg">
+                                            </a>
+                                            Github
+                                        </span>
+                                    </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Modal Content -->
+                    <div class="modal-content">
+                        <!-- Custom Layout -->
+                        
+                            <h5>What are Voronoi Diagrams?</h5>
+<p>
+    A voronoi diagram is a partitioning of a plane with n generating points into convex polygons such that each polygon contains exactly one generating point and every point in a given polygon is closer to its generating point than any other point.
+    They are also known as Voronoi tessellation, Voronoi decomposition, Voronoi Partition, or Dirichlet tessellation.
+</p>
+
+<h5>Creating Art</h5>
+<p>
+    Using a Voronoi Diagram we can create mosaic or plainting like repersentations of an original image. To do this we use the following algorithm:
+</p>
+
+<ul class="ul-bullets">
+    <li>
+        Given an image I, generate a random set of n points P which lies within the perimeter of I.
+    </li>
+    <li>
+        Generate a Voronoi Diagram V from the set of points P. Let v_i denote a polygon in V.
+    </li>
+    <li>
+        Color each polygon v_i using the pixel valaue from I located at the center of v_i.
+    </li>
+    <li>
+        If a polygon v_i center is not located on I, color v_i using the pixel value from the closest point on I to the center of v_i.
+    </li>
+</ul>
+
+<p>
+    While using the algorithm the final image can vastly differ depending on your set of points P.
+    For instance, if you generate your set P using a Gaussian distribution, increasing the amount of points n improves the clarity of the final image.
+    While using a skewed distribution to create P can make a sense of depth or focus to the final image.
+</p>
+
+<h5>Raw Image</h5>
+<div class="article-img-container">
+    <img class="article-img" src="/static/images/projects/voronoi/Land_1.jpg">
+</div>
+
+<h5>Voronoi Representation</h5>
+<div class="article-img-container">
+    <img class="article-img" src="/static/images/projects/voronoi/Land_1_Final.png">
+</div>
+                        <!-- Auto Content -->
+                        
+
+                        <!-- Project Photos -->
+
+                        <!-- Skills & Tech -->
+
+                    </div>
+
+                    <!-- Modal Footer -->
+                    <div class="modal-footer">
+                        <hr class="hr-one">
+                        <span>
+                            
+                                <a class="status">Released: Dec 2018</a>
+                            
+                        </span>
+                    </div>
+                </div>
+            <div class="modal-padding modal-action modal-close"></div>
+            <div class="modal-padding-extra modal-action modal-close"></div>
+        </div>
+    </div>
+
+    <!-- Card -->
+    <div class="col s12 m6 l4">
+        <div class="card hoverable project">
+            <!-- Project Icon -->
+            <div class="card-image waves-effect waves-block waves-light activator">
+                
+                    <img class="card-image activator" src=/static/images/projects/voronoi/icon.gif>
+                
+            </div>
+
+            <!-- Card Content -->
+            <div class="card-content activator">
+                <!-- Project Name -->
+                <span id="title" class="no-margin-bottom card-title activator grey-text text-darken-4" title="Voronoi Diagram Art">
+                    Voronoi Diagram Art
+                </span>
+                <!-- Tags -->
+                
+                    <div class="container-outer">
+                        <div class="md-chips container-inner">
+                            
+                            <div class="md-chip md-chip-clickable">
+                                <a class="md-chip-link" href="/projects.html?tags=Math">
+                                    Math
+                                </a>
+                            </div>
+                            
+                            <div class="md-chip md-chip-clickable">
+                                <a class="md-chip-link" href="/projects.html?tags=Art">
+                                    Art
+                                </a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                
+                <div class="row no-margin-bottom">
+                    <!-- Read More -->
+                    <div class="col col-reveal-title">
+                        
+                            <span><a class="modal-trigger" href="#modal-Voronoi Diagram Art">Read More</a></span>
+                        
+                        
+                            <span> | </span>
+                        
+                        
+                            <span><a class="github" href=https://github.com/JoshuadeJong/Voronoi-Art>Github</a></span>
+                        
+                    </div>
+
+                    <!-- show more -->
+                    <div class="col col-reveal-icon">
+                        
+                            <span>
+                                <i class="material-icons right activator">more_vert</i>
+                            </span>
+                        
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Card Reveal -->
+            
+                <div class="card-reveal">
+                    <div class="row no-margin-top no-margin-bottom">
+                        <div class="col col-reveal-title">
+                            <span class="card-title grey-text text-darken-4">Voronoi Diagram Art</span>
+                        </div>
+                        <div class="col col-reveal-icon">
+                            <span class="card-title activator" style="display: contents;"><i class="material-icons right vcenter-close">close</i></span>
+                        </div>
+                    </div>
+                    
+                        <div><span class="status">Dec 2018</span></div>
+                    
+                    <p>Code and a poster showing how Voronoi Diagrams could be used to create mosaic like art.</p>
+
+                    <div class="bottom-aligned">
+                        
+                            <span><a class="modal-trigger" href="#modal-Voronoi Diagram Art">Read More</a></span>
+                        
+                        
+                            <span> | </span>
+                        
+                        
+                            <span><a class="github" href=https://github.com/JoshuadeJong/Voronoi-Art>Github</a></span>
+                        
+                    </div>
+                </div>
+            
+        </div>
+    </div>
+</body>
+        
+            <head>
+</head>
+
+<body>
+    <!-- Modal -->
+    <div id="modal-Vapor-to-Particle Reactions" class="modal modal-window">
+        <div class="flex-window">
+            <div class="modal-padding modal-action modal-close"></div>
+            <div class="modal-background">
+                    <!-- Close Button -->
+                    <a class="modal-action modal-close modal-quit-button btn-floating btn-small waves-effect waves-light">
+                        <i class="material-icons">
+                            close
+                        </i>
+                    </a>
+
+                    <!-- Modal Header -->
+                    <div class="modal-header row no-margin-bottom">
+                        <!-- Project Icon -->
+                        <div class="col col-icon">
+                            <div class="icon-container">
+                                <img class="icon-image" src=/static/images/projects/vapor-to-particle-reaction/icon.png>
+                            </div>
+                        </div>
+
+                        <!-- Project Title & Tags -->
+                        <div class="col col-title">
+                            <div class="center-if-small title-margin">
+                                <span class="modal-title">
+                                    Vapor-to-Particle Reactions
+                                </span>
+                                
+                                    <div class="md-chips container-inner" style="overflow-x: hidden;">
+                                        
+                                        <div class="md-chip md-chip-clickable">
+                                            <a class="md-chip-link" href="/projects.html?tags=Math">
+                                                Math
+                                            </a>
+                                        </div>
+                                        
+                                        <div class="md-chip md-chip-clickable">
+                                            <a class="md-chip-link" href="/projects.html?tags=Code">
+                                                Code
+                                            </a>
+                                        </div>
+                                        
+                                    </div>
+                                
+                                
+                                    <div style="margin-top: 8px;">
+                                        <span class="media-box">
+                                            <a target="_blank" href=https://github.com/JoshuadeJong/E.D.C.T>
+                                                <img class="media-logo" src="static/images/github.svg">
+                                            </a>
+                                            Github
+                                        </span>
+                                    </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Modal Content -->
+                    <div class="modal-content">
+                        <!-- Custom Layout -->
+                        
+                            <p>
+    A toolset created in Matlab to aid in empirical data collection of vapor-to-particle reactions for a chemistry lab at Colorado State University.
+    The tool set consists of four main programs these being:
+</p>
+<ul>
+    <li>
+        <b>ColorSpec</b>
+        -
+        Analysis the RGB values of an image or video in a given region.
+        The user can specify to break the region into vertical or horizontal slices for further analysis.
+    </li>
+    <li>
+        <b>LineSpec</b>
+        -
+        Analyzes the color intensity and light intensity of an image or video on a given line.
+    </li>
+    <li>
+        <b>Crystal Analysis</b>
+        -
+        Maps regions of a particle or material to show the underlying crystal structure through the use of a 2d fourier transform.
+        If the region consists of only noise or no substantial phase cannot be found, the region is further broken up regions and analysed.
+    </li>
+    <li>
+        <b>TornadoPulse</b>
+        -
+        Analyzes the changing volume and perimeter of a particle cloud.
+        This allows the user to measure the volume of the vortex rings leaving the vapor-to-particle site as well as the frequency.
+    </li>
+</ul>
+
+<h5>Color Spec</h5>
+<p>
+    The user provides a photo or video to be analysed using a gui.
+    Once the media is loaded into memory the user then selects a region of the media.
+    The RGB values from the media is then analyzed as a histogram and then vertical cross sections.
+</p>
+
+<div class="article-img-container">
+    <img class="article-img" src="/static/images/projects/vapor-to-particle-reaction/ColorSpec_RegionSelect.png">
+</div>
+
+<div class="article-img-container">
+    <img class="article-img" src="/static/images/projects/vapor-to-particle-reaction/ColorSpec_Histogram.png">
+</div>
+
+<div class="article-img-container">
+    <img class="article-img" src="/static/images/projects/vapor-to-particle-reaction/ColorSpec_CrossSections.png">
+</div>
+
+<h5>Line Spec</h5>
+<p>
+    The user loads in a photo or video and draws a pixel thin line on the media.
+    The pixels across the user's line are then analyzed per a frame and produces live data.
+</p>
+
+<div class="article-img-container">
+    <img class="article-img" src="/static/images/projects/vapor-to-particle-reaction/SpecLine_region.png">
+</div>
+
+<div class="article-img-container">
+    <img class="article-img" src="/static/images/projects/vapor-to-particle-reaction/LineSpec_Data.png">
+</div>
+
+<h5>Crystal Analysis</h5>
+<p>
+    The user provides an image from Digital Microscope (dm3).
+    The image is recursively broken up into regions to fit within the edges of the detected particle.
+    Each region then undergoes a 2d fourier transform to detect the orientation of crystalline structure with in the region.
+    Regions are then grouped together using a K clustering algorithm and colored according to its grouping.
+</p>
+
+<div class="article-img-container">
+    <img class="article-img" src="/static/images/projects/vapor-to-particle-reaction/CryAnalysis_Material.png">
+</div>
+
+<div class="article-img-container">
+    <img class="article-img" src="/static/images/projects/vapor-to-particle-reaction/CryAnalysis_Orientations.png">
+</div>
+
+<h5>Tornado Pulse</h5>
+<p>
+    This application looks as the light intensity from a video and identifies a blob using standard deviations.
+    The area, center and perimeter of the blob are recorded over time, blobs whose center is outside of the blue bounding box are ignored.
+    The tool allows the user to measure the rate at which the aerosol leaves the droplet.
+</p>
+
+<div class="article-img-container">
+    <img class="article-img" src="/static/images/projects/vapor-to-particle-reaction/TornadoPulse_Sample.png">
+</div>
+
+<div class="article-img-container">
+    <img class="article-img" src="/static/images/projects/vapor-to-particle-reaction/TornadoPulse_MachineVision.png">
+</div>
+
+                        <!-- Auto Content -->
+                        
+
+                        <!-- Project Photos -->
+
+                        <!-- Skills & Tech -->
+
+                    </div>
+
+                    <!-- Modal Footer -->
+                    <div class="modal-footer">
+                        <hr class="hr-one">
+                        <span>
+                            
+                                <a class="status">Released: Jul 2018</a>
+                            
+                        </span>
+                    </div>
+                </div>
+            <div class="modal-padding modal-action modal-close"></div>
+            <div class="modal-padding-extra modal-action modal-close"></div>
+        </div>
+    </div>
+
+    <!-- Card -->
+    <div class="col s12 m6 l4">
+        <div class="card hoverable project">
+            <!-- Project Icon -->
+            <div class="card-image waves-effect waves-block waves-light activator">
+                
+                    <img class="card-image activator" src=/static/images/projects/vapor-to-particle-reaction/icon.png>
+                
+            </div>
+
+            <!-- Card Content -->
+            <div class="card-content activator">
+                <!-- Project Name -->
+                <span id="title" class="no-margin-bottom card-title activator grey-text text-darken-4" title="Vapor-to-Particle Reactions">
+                    Vapor-to-Particle Reactions
+                </span>
+                <!-- Tags -->
+                
+                    <div class="container-outer">
+                        <div class="md-chips container-inner">
+                            
+                            <div class="md-chip md-chip-clickable">
+                                <a class="md-chip-link" href="/projects.html?tags=Math">
+                                    Math
+                                </a>
+                            </div>
+                            
+                            <div class="md-chip md-chip-clickable">
+                                <a class="md-chip-link" href="/projects.html?tags=Code">
+                                    Code
+                                </a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                
+                <div class="row no-margin-bottom">
+                    <!-- Read More -->
+                    <div class="col col-reveal-title">
+                        
+                            <span><a class="modal-trigger" href="#modal-Vapor-to-Particle Reactions">Read More</a></span>
+                        
+                        
+                            <span> | </span>
+                        
+                        
+                            <span><a class="github" href=https://github.com/JoshuadeJong/E.D.C.T>Github</a></span>
+                        
+                    </div>
+
+                    <!-- show more -->
+                    <div class="col col-reveal-icon">
+                        
+                            <span>
+                                <i class="material-icons right activator">more_vert</i>
+                            </span>
+                        
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Card Reveal -->
+            
+                <div class="card-reveal">
+                    <div class="row no-margin-top no-margin-bottom">
+                        <div class="col col-reveal-title">
+                            <span class="card-title grey-text text-darken-4">Vapor-to-Particle Reactions</span>
+                        </div>
+                        <div class="col col-reveal-icon">
+                            <span class="card-title activator" style="display: contents;"><i class="material-icons right vcenter-close">close</i></span>
+                        </div>
+                    </div>
+                    
+                        <div><span class="status">Jul 2018</span></div>
+                    
+                    <p>A compilation of code and posters created while researching chemical reactions.</p>
+
+                    <div class="bottom-aligned">
+                        
+                            <span><a class="modal-trigger" href="#modal-Vapor-to-Particle Reactions">Read More</a></span>
+                        
+                        
+                            <span> | </span>
+                        
+                        
+                            <span><a class="github" href=https://github.com/JoshuadeJong/E.D.C.T>Github</a></span>
+                        
+                    </div>
+                </div>
+            
+        </div>
+    </div>
+</body>
+        
+            <head>
+</head>
+
+<body>
+    <!-- Modal -->
+    <div id="modal-Grind, Level Design" class="modal modal-window">
+        <div class="flex-window">
+            <div class="modal-padding modal-action modal-close"></div>
+            <div class="modal-background">
+                    <!-- Close Button -->
+                    <a class="modal-action modal-close modal-quit-button btn-floating btn-small waves-effect waves-light">
+                        <i class="material-icons">
+                            close
+                        </i>
+                    </a>
+
+                    <!-- Modal Header -->
+                    <div class="modal-header row no-margin-bottom">
+                        <!-- Project Icon -->
+                        <div class="col col-icon">
+                            <div class="icon-container">
+                                <img class="icon-image" src=/static/images/projects/grind/icon.png>
+                            </div>
+                        </div>
+
+                        <!-- Project Title & Tags -->
+                        <div class="col col-title">
+                            <div class="center-if-small title-margin">
+                                <span class="modal-title">
+                                    Grind, Level Design
+                                </span>
+                                
+                                    <div class="md-chips container-inner" style="overflow-x: hidden;">
+                                        
+                                        <div class="md-chip md-chip-clickable">
+                                            <a class="md-chip-link" href="/projects.html?tags=CSGO">
+                                                CSGO
+                                            </a>
+                                        </div>
+                                        
+                                        <div class="md-chip md-chip-clickable">
+                                            <a class="md-chip-link" href="/projects.html?tags=Level+Design">
+                                                Level Design
+                                            </a>
+                                        </div>
+                                        
+                                    </div>
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Modal Content -->
+                    <div class="modal-content">
+                        <!-- Custom Layout -->
+                        
+                            <p>
+    A Counter Strike: Global Offensive bomb defusal map set in Namibia mine.
+    Featuring a highly competitive layout focused around map control, and 100% custom environment art.
+</p>
+
+<div class="article-img-container">
+    <img class="article-img" src="/static/images/projects/grind/truck.jpg">
+</div>
+
+<h5>History</h5>
+<p>
+    I original started the de_grind as a passion project to reinvent de_dust, a classic Counter Strike map which has fallen out of popularity.
+    While very little of de_dust exists in the final version of de_grind the competitive feel and the art style, albeit more industrial, carried over into de_grind.
+</p>
+
+<div class="article-img-container">
+    <img class="article-img" src="/static/images/projects/grind/bsite.jpg">
+</div>
+
+<p>
+    Over the course of 2 years the project took a lot of different directions, styles, and concepts before reaching its finished state.
+    Early on the map went through many themes; an sandy North Africa theme, then a small coastal Italian village, and then through a modern condo theme.
+    During this time I grew rapidly as a level designer and more proficient with the toolset.
+</p>
+
+<div class="article-img-container">
+    <img class="article-img" src="/static/images/projects/grind/outside.jpg">
+</div>
+
+<p>
+    I eventually joined Mapcore, a level design community, where I meet Jan Huygelen.
+    Together we worked on polishing the gameplay and trying to pin down a theme.
+    Unfortunately, before we could pin down a theme and finish the map Jan got a offer to work on a high profile project, de_mirage2 later called de_thrill.
+    While working with Jan, I learned the depths of the source engine and developed my skill set as an artist.
+</p>
+
+<div class="article-img-container">
+    <img class="article-img" src="/static/images/projects/grind/underground.jpg">
+</div>
+
+<p>
+    As I was committed to finish the project and did not have the skill set to finish the project on my own, I sought after a new team member.
+    I eventually recruited Konstantin Loffler, another level designer, to finalize the gameplay of the map.
+    Together we extensively playtested the map and settled on the final theme, a modern mining facility.
+<p>
+    We then recruited Cory de la Torre to act as our lead Environment Artist.
+    With his help we finished the art and shipped with 100% self generated art content.
+</p>
+
+
+
+
+                        <!-- Auto Content -->
+                        
+
+                        <!-- Project Photos -->
+
+                        <!-- Skills & Tech -->
+
+                    </div>
+
+                    <!-- Modal Footer -->
+                    <div class="modal-footer">
+                        <hr class="hr-one">
+                        <span>
+                            
+                                <a class="status">Released: Sep 2017</a>
+                            
+                        </span>
+                    </div>
+                </div>
+            <div class="modal-padding modal-action modal-close"></div>
+            <div class="modal-padding-extra modal-action modal-close"></div>
+        </div>
+    </div>
+
+    <!-- Card -->
+    <div class="col s12 m6 l4">
+        <div class="card hoverable project">
+            <!-- Project Icon -->
+            <div class="card-image waves-effect waves-block waves-light activator">
+                
+                    <img class="card-image activator" src=/static/images/projects/grind/icon.png>
+                
+            </div>
+
+            <!-- Card Content -->
+            <div class="card-content activator">
+                <!-- Project Name -->
+                <span id="title" class="no-margin-bottom card-title activator grey-text text-darken-4" title="Grind, Level Design">
+                    Grind, Level Design
+                </span>
+                <!-- Tags -->
+                
+                    <div class="container-outer">
+                        <div class="md-chips container-inner">
+                            
+                            <div class="md-chip md-chip-clickable">
+                                <a class="md-chip-link" href="/projects.html?tags=CSGO">
+                                    CSGO
+                                </a>
+                            </div>
+                            
+                            <div class="md-chip md-chip-clickable">
+                                <a class="md-chip-link" href="/projects.html?tags=Level+Design">
+                                    Level Design
+                                </a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                
+                <div class="row no-margin-bottom">
+                    <!-- Read More -->
+                    <div class="col col-reveal-title">
+                        
+                            <span><a class="modal-trigger" href="#modal-Grind, Level Design">Read More</a></span>
+                        
+                        
+                        
+                    </div>
+
+                    <!-- show more -->
+                    <div class="col col-reveal-icon">
+                        
+                            <span>
+                                <i class="material-icons right activator">more_vert</i>
+                            </span>
+                        
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Card Reveal -->
+            
+                <div class="card-reveal">
+                    <div class="row no-margin-top no-margin-bottom">
+                        <div class="col col-reveal-title">
+                            <span class="card-title grey-text text-darken-4">Grind, Level Design</span>
+                        </div>
+                        <div class="col col-reveal-icon">
+                            <span class="card-title activator" style="display: contents;"><i class="material-icons right vcenter-close">close</i></span>
+                        </div>
+                    </div>
+                    
+                        <div><span class="status">Sep 2017</span></div>
+                    
+                    <p>A multiplayer Counter Strike map with Konstantin Loffler and Cory De La Torre.</p>
+
+                    <div class="bottom-aligned">
+                        
+                            <span><a class="modal-trigger" href="#modal-Grind, Level Design">Read More</a></span>
+                        
+                        
+                        
+                    </div>
+                </div>
+            
+        </div>
+    </div>
+</body>
+        
+    </div>
+
+</div>
+
+
+</body>
+</html>
